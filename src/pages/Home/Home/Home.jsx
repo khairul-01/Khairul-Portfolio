@@ -1,9 +1,12 @@
+import About from "../About/About";
+import Banner from "../Banner/Banner";
 
 
 const Home = () => {
     return (
-        <div>
-            <h1 className="text-7xl text-orange-500">Welcome to My Portfolio</h1>
+        <div className="space-y-5">
+            <Banner></Banner>
+            <About></About>
         </div>
     );
 };
