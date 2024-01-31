@@ -10,13 +10,15 @@ const Banner = () => {
                         <img src="https://i.ibb.co/hFQfXS6/Khairul-Alam.jpg" className="rounded-lg shadow-2xl mx-auto" />
                     </div>
                     <div className="w-1/2 text-center">
-                        <h1 className="text-5xl font-bold">Hi, I am</h1>
-                        <h1 className="text-5xl text-orange-500">Khairul Alam</h1>
-                        <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                        <div className="flex gap-4 justify-center">
+                        <div className="w-3/4 mx-auto ">
+                            <h1 className="text-5xl font-bold">Hi, I am</h1>
+                            <h1 className="text-5xl text-orange-500">Khairul Alam</h1>
+                            <p className="py-6 text-justify">Welcome to my portfolio! I am a dedicated and aspiring web developer with a passion for creating impactful digital experiences. My journey into the world of technology began with a deep-seated curiosity and a drive to understand the inner workings of the web.</p>
+                            <div className="flex gap-4 justify-center">
 
-                        <button className="btn btn-primary">Download CV</button>
-                        <button className="btn btn-primary">Contact</button>
+                                <button className="btn btn-primary">Download CV</button>
+                                <button className="btn btn-primary">Contact</button>
+                            </div>
                         </div>
                     </div>
                 </div>
