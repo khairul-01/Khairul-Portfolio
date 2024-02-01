@@ -6,7 +6,7 @@ const About = () => {
             <div className="hero min-h-screen text-orange-700 bg-primary-content">
                 <div className="hero-content text-center flex-col">
                     <div className="max-w-md">
-                        <h1 className="text-5xl font-bold">About Me</h1>
+                        <h1 className="text-5xl font-bold text-primary">About Me</h1>
                     </div>
                     <div className="w-3/4 mx-auto text-justify">
                         <p className="py-6 space-y-2">
@@ -27,7 +27,7 @@ const About = () => {
                             </div>
                             <div>
                                 <h1 className="text-xl">Date of Birth</h1>
-                                <span className="text-xl font-bold">March 16 1997</span>
+                                <span className="text-xl font-bold">March 16, 1997</span>
                             </div>
                             <div>
                                 <h1 className="text-xl">From</h1>

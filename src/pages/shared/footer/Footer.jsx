@@ -3,8 +3,8 @@
 const Footer = () => {
     return (
         <div>
-            <footer className="footer footer-center mt-3 p-10 bg-base-200 text-base-content rounded">
-                <nav className="grid grid-flow-col gap-4">
+            <footer className="footer footer-center mt-3 p-3 md:p-10 bg-base-200 text-base-content rounded">
+                <nav className="grid grid-cols-2 sm:grid-flow-col gap-4">
                     <a className="link link-hover">About me</a>
                     <a className="link link-hover">My Projects</a>
                     <a className="link link-hover">Contact</a>
