@@ -1,6 +1,7 @@
 import WhatiDo from "../../WhatiDo/WhatiDo";
 import About from "../About/About";
 import Banner from "../Banner/Banner";
+import ResumeSummery from "../ResumeSummery/ResumeSummery";
 
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
             <Banner></Banner>
             <About></About>
             <WhatiDo></WhatiDo>
+            <ResumeSummery></ResumeSummery>
         </div>
     );
 };
