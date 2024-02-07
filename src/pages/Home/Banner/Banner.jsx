@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const Banner = () => {
@@ -16,8 +17,8 @@ const Banner = () => {
                             <p className="py-6 text-justify">Welcome to my portfolio! I am a dedicated and aspiring web developer with a passion for creating impactful digital experiences. My journey into the world of technology began with a deep-seated curiosity and a drive to understand the inner workings of the web.</p>
                             <div className="flex gap-4 justify-center">
 
-                                <button className="btn btn-primary">Download CV</button>
-                                <button className="btn btn-primary">Contact</button>
+                                <Link to='https://drive.google.com/file/d/10y6WoNBESp-AuytqyT_hurtvJEoM8Xqf/view?usp=sharing' target="blank"><button className="btn btn-secondary">Download CV</button></Link>
+                                <Link to="/hireMe"><button className="btn btn-secondary">Contact</button></Link>
                             </div>
                         </div>
                     </div>

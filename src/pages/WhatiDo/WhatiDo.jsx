@@ -2,6 +2,7 @@ import { FaCss3, FaGitAlt, FaHtml5, FaNodeJs, FaReact } from "react-icons/fa6"
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiExpress } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
+import { Link } from "react-router-dom";
 
 const WhatiDo = () => {
     return (
@@ -14,34 +15,35 @@ const WhatiDo = () => {
                             <p className="py-1">Below is a quick overview of my main technical skill sets and technologies i use. Want to find out more about experience? Check out my online resume and project portfolio.</p>
                         </p>
                     </div>
-                    <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 p-3">
+                    <div className="grid grid-cols-2 sm:grid-cols-4 gap-5 px-5">
                         <div className="flex flex-col justify-center items-center space-y-2">
-                            <FaHtml5 /> <span className="font-bold">HTML 5</span> <p className="text-wrap">Semantic markup for structuring web pages.</p>
+                            <FaHtml5 className="text-2xl" /> <span className="font-bold">HTML 5</span> <p className="text-wrap text-justify">Semantic markup for structuring web pages.</p>
                         </div>
                         <div className="flex flex-col justify-center items-center space-y-2">
-                            <FaCss3 /> <span className="font-bold">CSS 3</span> <p className="text-wrap">Styling and layout design, including CSS frameworks like Tailwind</p>
+                            <FaCss3 className="text-2xl" /> <span className="font-bold">CSS 3</span> <p className="text-wrap text-justify">Styling and layout design, including CSS frameworks like Tailwind</p>
                         </div>
                         <div className="flex flex-col justify-center items-center space-y-2">
-                            <IoLogoJavascript /> <span className="font-bold">JavaScript</span> <p className="text-wrap">Proficient in ES6+ syntax, DOM manipulation, and asynchronous programming.</p>
+                            <IoLogoJavascript className="text-2xl" /> <span className="font-bold">JavaScript</span> <p className="text-wrap text-justify">Proficient in ES6+ syntax, DOM manipulation, and asynchronous programming.</p>
                         </div>
                         <div className="flex flex-col justify-center items-center space-y-2">
-                            <FaReact /> <span className="font-bold">React.js</span> <p className="text-wrap">Building interactive user interfaces and single-page applications.</p>
+                            <FaReact className="text-2xl" /> <span className="font-bold">React.js</span> <p className="text-wrap text-justify">Building interactive user interfaces and single-page applications.</p>
                         </div>
                         <div className="flex flex-col justify-center items-center space-y-2">
-                            <FaNodeJs /> <span className="font-bold">Node.js</span> <p className="text-wrap">Server-side JavaScript runtime environment.</p>
+                            <FaNodeJs className="text-2xl" /> <span className="font-bold">Node.js</span> <p className="text-wrap text-justify">Server-side JavaScript runtime environment.</p>
                         </div>
                         <div className="flex flex-col justify-center items-center space-y-2">
-                            <SiExpress /> <span className="font-bold">Express.js</span> <p className="text-wrap">Building scalable and efficient web applications and APIs.</p>
+                            <SiExpress className="text-2xl" /> <span className="font-bold">Express.js</span> <p className="text-wrap text-justify">Building scalable and efficient web applications and APIs.</p>
                         </div>
                         <div className="flex flex-col justify-center items-center space-y-2">
-                            <DiMongodb /> <span className="font-bold">MongoDB</span> <p className="text-wrap">NoSQL database for storing and managing data.</p>
+                            <DiMongodb className="text-2xl" /> <span className="font-bold">MongoDB</span> <p className="text-wrap text-justify">NoSQL database for storing and managing data.</p>
                         </div>
                         <div className="flex flex-col justify-center items-center space-y-2">
-                            <FaGitAlt /> <span className="font-bold">Version Control</span> <p className="text-wrap">Proficient in Git for collaborative development and version control.</p>
+                            <FaGitAlt className="text-2xl" /> <span className="font-bold">Version Control</span> <p className="text-wrap text-justify">Proficient in Git for collaborative development and version control.</p>
                         </div>
 
                     </div>
                 </div>
+                
             </div>
         </div>
     );
