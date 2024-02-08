@@ -26,8 +26,8 @@ const About = () => {
                                 <h1 className="text-xl font-bold break-all">khairul431743@gmail.com</h1>
                             </div>
                             <div>
-                                <h1 className="text-xl">Date of Birth</h1>
-                                <span className="text-xl font-bold">March 16, 1997</span>
+                                <h1 className="text-xl">Contact Number</h1>
+                                <span className="text-xl font-bold">01956431743</span>
                             </div>
                             <div>
                                 <h1 className="text-xl">From</h1>
