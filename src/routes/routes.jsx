@@ -4,6 +4,7 @@ import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import Home from "../pages/Home/Home/Home";
 import HireMe from "../pages/HireMe/HireMe";
 import Portfolio from "../pages/Portfolio/Portfolio/Portfolio";
+import Blog from "../pages/Blog/Blog";
 
 const router = createBrowserRouter([
     {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
         {
           path: '/hireMe',
           element: <HireMe></HireMe>
+        },
+        {
+          path: '/blog',
+          element: <Blog></Blog>
         }
       ]
     },
