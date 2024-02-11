@@ -29,6 +29,10 @@ const ResumeSummery = () => {
                                     <p>Skills: React, Firebase, MongoDB, Node.js, Express.js, Tailwind CSS, Daisy UI, Vanilla CSS, HTML, Next.js</p>
 
                                 </div>
+                                <br />
+                                <h3 className="text-xl">Bangladesh Miyazaki ICT Engineering Training Program (B-MEET)</h3>
+                                <p>B-JET Center, North South University</p>
+                                <p>Duration: May 2023</p>
                             </div>
                             <div className="text-left w-3/4 mx-auto">
                                 <h1 className="text-2xl font-bold">Work Experience</h1>
@@ -51,10 +55,7 @@ const ResumeSummery = () => {
                                 <h3 className="text-xl">Fundamental IT Engineering Examination (FE) Exam</h3>
                                 <p>Bangladesh Computer Council (BCC), Agargaon, Dhaka</p>
                                 <p>Date of Passing: 21 October, 2023</p>
-                                <br />
-                                <h3 className="text-xl">Bangladesh Miyazaki ICT Engineering Training Program (B-MEET)</h3>
-                                <p>B-JET Center, North South University</p>
-                                <p>Duration: May 2023</p>
+                                
                             </div>
                         </div>
                         <div className="flex justify-center mt-7">
