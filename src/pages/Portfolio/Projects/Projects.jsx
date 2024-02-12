@@ -66,17 +66,31 @@ const Projects = () => {
                 </div>
                 <div className="card mx-auto bg-neutral text-neutral-content">
                     <figure className="px-10 pt-10">
-                        <img src="https://i.ibb.co/N6Nztgc/image.png" alt="conference management photo" className="rounded-xl" />
+                        <img src="https://i.ibb.co/5knrPnr/image.png" alt="conference management photo" className="rounded-xl" />
                     </figure>
                     <div className="card-body  text-left">
                         <h2 className="card-title">Course Registration Roster</h2>
-                        <p> <span className="font-bold">Description</span> The Course Registration Roster website is fully functional and ready for users to explore and register for courses. Continuous updates and improvements are planned to enhance usability, optimize performance, and add new features as needed.</p>
-                        <p><span className="font-bold">Technologies:</span> <li>Frontend: React.js, Tailwind CSS, Daisy UI, React Router, HTML-5, JavaScript.</li>
-                            <li>Backend: Firebase Authentication (for user authentication)</li>
-                            <li>Database: Firebase Firestore (for storing conference data)</li>
+                        <p> <span className="font-bold">Description</span> The Course Registration Roster website is fully functional and ready for users to explore and register for courses. Continuous updates and improvements are planned to enhance usability, optimize performance, and add new features as needed. The website enforces a maximum course credit limit of 20 hours per user.</p>
+                        <p><span className="font-bold">Technologies:</span> <li>Frontend: Tailwind CSS, Daisy UI, HTML-5, JavaScript.</li>
+                            
                             <li>Deployment: Surge</li> </p>
-                        <p><span className="font-bold">Live demo:</span> <Link to='https://plain-lift.surge.sh' target="blank">https://plain-lift.surge.sh/</Link></p>
-                        <p><span className="font-bold"> GitHub Repository Link:</span> <Link to='https://github.com/khairul-01/donation-campaign.git' target="blank">https://github.com/khairul-01/donation-campaign.git</Link></p>
+                        <p><span className="font-bold">Live demo:</span> <Link to='https://sweet-trouble.surge.sh' target="blank">https://sweet-trouble.surge.sh</Link></p>
+                        <p><span className="font-bold"> GitHub Repository Link:</span> <Link to='https://github.com/khairul-01/course-registration-roster.git' target="blank">https://github.com/khairul-01/course-registration-roster.git</Link></p>
+
+                    </div>
+                </div>
+                <div className="card mx-auto bg-neutral text-neutral-content">
+                    <figure className="px-10 pt-10">
+                        <img src="https://i.ibb.co/Rjd76H9/image.png" alt="conference management photo" className="rounded-xl" />
+                    </figure>
+                    <div className="card-body  text-left">
+                        <h2 className="card-title">PHero-Tube</h2>
+                        <p> <span className="font-bold">Description</span> PHero-Tube is a dynamic and engaging video-sharing platform designed to entertain and inspire users through a diverse range of content categories. With an intuitive interface and powerful sorting capabilities, the website offers a personalized and immersive viewing experience for users of all interests.</p>
+                        <p><span className="font-bold">Technologies:</span> <li>Frontend: HTML-5, CSS-3, JavaScript.</li>
+                            
+                            <li>Deployment: Surge</li> </p>
+                        <p><span className="font-bold">Live demo:</span> <Link to='https://apathetic-orange.surge.sh' target="blank">https://apathetic-orange.surge.sh</Link></p>
+                        <p><span className="font-bold"> GitHub Repository Link:</span> <Link to='https://github.com/khairul-01/PHero-tube.git' target="blank">https://github.com/khairul-01/PHero-tube.git</Link></p>
 
                     </div>
                 </div>

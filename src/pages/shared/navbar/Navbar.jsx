@@ -10,7 +10,7 @@ const Navbar = () => {
     </>
     return (
         <div>
-            <div className="navbar bg-base-100 mb-1">
+            <div className="navbar bg-violet-100 mb-1">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost sm:hidden">
@@ -20,7 +20,7 @@ const Navbar = () => {
                             {NavLinks}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 text-primary">Khairul Alam</a>
+                    <div className="flex items-center btn btn-ghost bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 text-primary"> <img className="h-12" src="https://i.ibb.co/2tRKfqC/download-removebg-preview.png" alt="" /> <a className=" text-xl ">Khairul Alam</a></div>
                 </div>
 
                 <div className="navbar-end hidden sm:flex">

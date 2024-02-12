@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Banner = () => {
     return (
         <div>
-            <div className="hero min-h-screen bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-50% to-emerald-500 to-90%">
+            <div className="hero min-h-screen bg-gradient-to-r from-indigo-200 from-10% via-sky-300 via-50% to-emerald-200 to-90%">
 
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <div className="w-1/2">

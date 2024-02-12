@@ -2,12 +2,12 @@ import { FaCss3, FaGitAlt, FaHtml5, FaNodeJs, FaReact } from "react-icons/fa6"
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiExpress } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
-import { Link } from "react-router-dom";
+
 
 const WhatiDo = () => {
     return (
         <div>
-            <div className="hero min-h-screen bg-base-100">
+            <div className="hero min-h-screen bg-cyan-100">
                 <div className="hero-content text-center flex-col">
                     <div className="w-3/4 mx-auto text-justify">
                         <h1 className="text-5xl font-bold text-center text-primary mb-3">What I Do</h1>
