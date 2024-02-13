@@ -7,7 +7,7 @@ import { DiMongodb } from "react-icons/di";
 const WhatiDo = () => {
     return (
         <div>
-            <div className="hero min-h-screen bg-cyan-100">
+            <div className="hero min-h-screen bg-cyan-100 text-black">
                 <div className="hero-content text-center flex-col">
                     <div className="w-3/4 mx-auto text-justify">
                         <h1 className="text-5xl font-bold text-center text-primary mb-3">What I Do</h1>
@@ -15,7 +15,7 @@ const WhatiDo = () => {
                             <p className="py-1">Below is a quick overview of my main technical skill sets and technologies i use. Want to find out more about experience? Check out my online resume and project portfolio.</p>
                         </p>
                     </div>
-                    <div className="grid grid-cols-2 sm:grid-cols-4 gap-5 px-5">
+                    <div className="grid grid-cols-2 sm:grid-cols-4 gap-5 px-5 mx-5">
                         <div className="flex flex-col justify-center items-center space-y-2">
                             <FaHtml5 className="text-2xl" /> <span className="font-bold">HTML 5</span> <p className="text-wrap text-justify">Semantic markup for structuring web pages.</p>
                         </div>
