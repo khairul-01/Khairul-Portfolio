@@ -13,7 +13,7 @@ const Banner = () => {
                     <div className="w-1/2 text-center">
                         <div className="w-3/4 mx-auto ">
                             <h1 className="text-5xl font-bold">Hi, I am</h1>
-                            <h1 className="text-5xl text-orange-500">Khairul Alam</h1>
+                            <h1 className="text-5xl text-orange-950">Khairul Alam</h1>
                             <p className="py-6 text-justify">Welcome to my portfolio! I am a dedicated and aspiring web developer with a passion for creating impactful digital experiences. My journey into the world of technology began with a deep-seated curiosity and a drive to understand the inner workings of the web.</p>
                             <div className="flex gap-4 justify-center">
 

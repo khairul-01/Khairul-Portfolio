@@ -18,19 +18,19 @@ const About = () => {
                         </p>
                         <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
                             <div>
-                                <h1 className="text-xl">Name</h1>
+                                <h1 className="text-xl">Name:</h1>
                                 <h1 className="text-xl font-bold">Khairul Alam</h1>
                             </div>
                             <div className="">
-                            <h1 className="text-xl">Email</h1>
+                            <h1 className="text-xl">Email:</h1>
                                 <h1 className="text-xl font-bold break-all">khairul431743@gmail.com</h1>
                             </div>
                             <div>
-                                <h1 className="text-xl">Contact Number</h1>
-                                <span className="text-xl font-bold">01956431743</span>
+                                <h1 className="text-xl">Contact Number:</h1>
+                                <span className="text-xl font-bold">+880 1956431743</span>
                             </div>
                             <div>
-                                <h1 className="text-xl">From</h1>
+                                <h1 className="text-xl">From:</h1>
                                 <h1 className="text-xl font-bold break-all">Dhaka, Bangladesh</h1>
                             </div>
                         </div>

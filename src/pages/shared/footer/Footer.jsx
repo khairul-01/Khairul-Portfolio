@@ -1,5 +1,6 @@
-import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa6";
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -10,18 +11,31 @@ const Footer = () => {
                         <h1 className="text-3xl font-bold mb-2">Lets connect</h1>
                         <p className="mb-3">Please fill out the form on this section to contact with me or Email me any time or call between 9 A.M to 8 P.M Monday to Sunday</p>
                         <div className="flex gap-4 text-2xl">
-                            <div className='btn btn-sm btn-info text-xl'>
-                                <FaFacebook />
-                            </div>
-                            <div className='btn btn-sm btn-info text-xl'>
-                                <FaGithub />
-                            </div>
-                            <div className='btn btn-sm btn-info text-xl'>
-                                <FaLinkedin />
-                            </div>
-                            <div className='btn btn-sm btn-info text-xl'>
-                                <MdEmail />
-                            </div>
+                            <Link to='https://www.facebook.com/khairul35' target="blank">
+                                <div className='btn btn-sm btn-info text-xl'>
+                                    <FaFacebook />
+                                </div>
+                            </Link>
+                            <Link to='https://github.com/khairul-01'>
+                                <div className='btn btn-sm btn-info text-xl'>
+                                    <FaGithub />
+                                </div>
+                            </Link>
+                            <Link to='https://www.linkedin.com/in/khairul01' target="blank">
+                                <div className='btn btn-sm btn-info text-xl'>
+                                    <FaLinkedin />
+                                </div>
+                            </Link>
+                            <Link to='https://mail.google.com' target="blank" >
+                                <div className='btn btn-sm btn-info text-xl'>
+                                    <MdEmail />
+                                </div>
+                            </Link>
+                            {/* <Link to='https://www.instagram.com/rank_1_khairul_alam' target="blank" >
+                                <div className='btn btn-sm btn-info text-xl'>
+                                    <FaInstagram />
+                                </div>
+                            </Link> */}
                         </div>
                     </nav>
                     <nav className="w-3/4 mx-auto">
@@ -39,15 +53,15 @@ const Footer = () => {
                                         <span className="label-text">Email</span>
                                     </label>
                                     <input type="password" placeholder="Your Email" className="input input-bordered" required />
-                                    
+
                                 </div>
                                 <div className="form-control">
                                     <label className="label">
                                         <span className="label-text">Message</span>
                                     </label>
                                     <textarea className="textarea input input-bordered" placeholder="Message" required></textarea>
-                                    
-                                    
+
+
                                 </div>
                                 <div className="form-control mt-6">
                                     <button className="btn btn-primary">Submit</button>
