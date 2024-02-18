@@ -1,0 +1,80 @@
+[
+    {
+        "image": "https://i.ibb.co/fX55RH4/png-transparent-logo-html-html5.png",
+        "skillName": "HTML 5",
+        "skillDescription": "Semantic markup for structuring web pages.",
+        "category": "Web Development"
+    },
+    {
+        "image": "https://i.ibb.co/hVSkJbj/download.png",
+        "skillName": "CSS 3",
+        "skillDescription": "Styling and layout design, including CSS frameworks like Tailwind",
+        "category": "Web Development"
+    },
+    {
+        "image": "https://i.ibb.co/k326PHG/featured.png",
+        "skillName": "Tailwind CSS",
+        "skillDescription": "A utility-first CSS framework that provides a set of pre-designed building blocks for quickly styling web interfaces.",
+        "category": "Web Development"
+    },
+    {
+        "image": "https://i.ibb.co/Sv2G03p/favicon-192.png",
+        "skillName": "Daisy UI",
+        "skillDescription": "A collection of customizable components and utility classes for rapidly building modern and responsive user interfaces using Tailwind CSS.",
+        "category": "Web Development"
+    },
+    {
+        "image": "https://i.ibb.co/DWJxyjq/png-clipart-javascript-scalable-graphics-logo-encapsulated-postscript-javascript-icon-text-logo-thum.png",
+        "skillName": "JavaScript",
+        "skillDescription": "Proficient in ES6+ syntax, DOM manipulation, and asynchronous programming.",
+        "category": "Web Development"
+    },
+    {
+        "image": "https://i.ibb.co/27r7Kw8/React-icon-svg.png",
+        "skillName": "React.js",
+        "skillDescription": "Building interactive user interfaces and single-page applications.",
+        "category": "Web Development"
+    },
+    {
+        "image": "https://i.ibb.co/tzWcxS6/png-clipart-node-js-logo-node-js-javascript-web-application-express-js-computer-software-others-misc.png",
+        "skillName": "Node.js",
+        "skillDescription": "Server-side JavaScript runtime environment.",
+        "category": "Web Development"
+    },
+    {
+        "image": "https://i.ibb.co/RQ2Wwp3/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png",
+        "skillName": "Express.js",
+        "skillDescription": "Building scalable and efficient web applications and APIs",
+        "category": "Web Development"
+    },
+    {
+        "image": "https://i.ibb.co/99jZ2x1/brand-nextjs-icon-512x512-iz9ba3mc.png",
+        "skillName": "Next.js",
+        "skillDescription": "A React framework for building server-rendered, static, and dynamic web applications.",
+        "category": "Web Development"
+    },
+    {
+        "image": "https://i.ibb.co/8B8k4HW/png-transparent-material-ui-logo.png",
+        "skillName": "Material-UI",
+        "skillDescription": "A popular React component library that implements Googles Material Design principles for building visually appealing and consistent user interfaces.",
+        "category": "Web Development"
+    },
+    {
+        "image": "https://i.ibb.co/y8D3vtn/m2-H7i8d3-A0-N4-H7-A0.png",
+        "skillName": "MongoDB",
+        "skillDescription": "NoSQL database for storing and managing data.",
+        "category": "Database"
+    },
+    {
+        "image": "https://i.ibb.co/0QN5k17/png-transparent-firebase-hd-logo-thumbnail.png",
+        "skillName": "Firebase",
+        "skillDescription": "A comprehensive platform by Google for building and managing web and mobile applications.",
+        "category": "Database"
+    },
+    {
+        "image": "https://i.ibb.co/wWXmYK9/png-transparent-sql-logo-illustration-microsoft-azure-sql-database-microsoft-sql-server-database-blu.png",
+        "skillName": "SQL",
+        "skillDescription": "An open-source relational database management system (RDBMS) known for its reliability, scalability, and ease of use.",
+        "category": "Database"
+    }
+]

@@ -10,8 +10,8 @@ const MyEducation = () => {
                 </figure>
                 <div className="card-body  text-left">
                     <h2 className="card-title">Bachelor of Science in Electrical and Electronics Engineering (EEE)</h2>
-                    <p className="text-xl">North South University | 2017 -  2021</p>
-                    <p>Duration: April, 2021 - August 2023</p>
+                    <p className="text-xl">North South University </p>
+                    <p>Duration: April, 2017 - August 2021</p>
                     <p>Department: Electrical and Computer Engineering</p>
                     <p>CGPA: 3.17</p>
 
