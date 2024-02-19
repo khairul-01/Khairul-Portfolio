@@ -152,32 +152,53 @@ const SkillsAndTechnology = () => {
                     <h3 className="text-2xl font-bold text-center mt-3 mb-7">Software and Hardware</h3>
                     <div className="grid grid-cols-2 sm:grid-cols-4 gap-5 px-5">
                         <div className="flex flex-col justify-center items-center space-y-2">
-                            <TbBrandVscode className="text-2xl" /> <span className="font-bold">VS Code</span> <p className="text-wrap text-justify">A lightweight, open-source code editor developed by Microsoft, known for its speed, extensibility, and rich ecosystem of extensions.</p>
+                            <figure className="">
+                                <img src="https://i.ibb.co/r4ksftp/png-transparent-visual-studio-code-hd-logo-thumbnail.png" alt="conference management photo" className="rounded-xl w-6 h-6" />
+                            </figure>
+                            <span className="font-bold">VS Code</span> <p className="text-wrap text-justify">A lightweight, open-source code editor developed by Microsoft, known for its speed, extensibility, and rich ecosystem of extensions.</p>
                         </div>
                         <div className="flex flex-col justify-center items-center space-y-2">
-                            <FaGitAlt className="text-2xl" /> <span className="font-bold">Git</span> <p className="text-wrap text-justify"> A distributed version control system that enables developers to track changes to source code and collaborate with others on software projects.</p>
+                            <figure className="">
+                                <img src="https://i.ibb.co/ZJNgNWx/git-icon.png" alt="conference management photo" className="rounded-xl w-6 h-6" />
+                            </figure>
+                            <span className="font-bold">Git</span> <p className="text-wrap text-justify"> A distributed version control system that enables developers to track changes to source code and collaborate with others on software projects.</p>
                         </div>
                         <div className="flex flex-col justify-center items-center space-y-2">
-                            <div>
-                                <img src="https://i.ibb.co/gwbkRP6/kisspng-matlab-simulink-signal-processing-programming-lang-cube-island-online-survival-3d-5b3b394d2f.jpg" alt="matlab logo" className="w-10 h-10" />
-                                <p className="font-bold pt-3">MATLAB</p>
-                            </div>
+                            <figure className="">
+                                <img src="https://i.ibb.co/YQDBXgQ/png-transparent-matlab-symbol.png" alt="conference management photo" className="rounded-xl w-8 h-6" />
+                            </figure>
+                            <span className="font-bold">MATLAB</span>
                             <p className="text-wrap text-justify">A high-level programming language and interactive environment developed by MathWorks, commonly used for numerical computing, data analysis, and algorithm development.</p>
                         </div>
                         <div className="flex flex-col justify-center items-center space-y-2">
-                            <SiAcademia className="text-2xl" /> <span className="font-bold">AutoCAD</span> <p className="text-wrap text-justify">A computer-aided design (CAD) software developed by Autodesk, widely used by architects, engineers, and designers for creating 2D and 3D drawings, models, and blueprints.</p>
+                            <figure className="">
+                                <img src="https://i.ibb.co/VY0RcqC/Autocad-Logo.png" alt="conference management photo" className="rounded-xl w-8 " />
+                            </figure>
+                            <span className="font-bold">AutoCAD</span> <p className="text-wrap text-justify">A computer-aided design (CAD) software developed by Autodesk, widely used by architects, engineers, and designers for creating 2D and 3D drawings, models, and blueprints.</p>
                         </div>
                         <div className="flex flex-col justify-center items-center space-y-2">
-                            <SiArduino className="text-2xl" /> <span className="font-bold">Arduino</span> <p className="text-wrap text-justify">An open-source electronics platform based on easy-to-use hardware and software, designed for building interactive projects and prototypes.</p>
+                            <figure className="">
+                                <img src="https://i.ibb.co/QCbR6dj/arduino-logo-1.png" alt="conference management photo" className="rounded-xl w-6 h-6 " />
+                            </figure>
+                            <span className="font-bold">Arduino</span> <p className="text-wrap text-justify">An open-source electronics platform based on easy-to-use hardware and software, designed for building interactive projects and prototypes.</p>
                         </div>
                         <div className="flex flex-col justify-center items-center space-y-2">
-                            <SiMultisim className="text-2xl" /> <span className="font-bold">Multisim</span> <p className="text-wrap text-justify">A circuit design and simulation software developed by National Instruments (now part of NI) for designing and analyzing electronic circuits.</p>
+                            <figure className="">
+                                <img src="https://i.ibb.co/rcWM8NZ/184-multisim-app-icon-ill.png" alt="conference management photo" className="rounded-xl w-6 h-6 " />
+                            </figure>
+                            <span className="font-bold">Multisim</span> <p className="text-wrap text-justify">A circuit design and simulation software developed by National Instruments (now part of NI) for designing and analyzing electronic circuits.</p>
                         </div>
                         <div className="flex flex-col justify-center items-center space-y-2">
-                            <SiMicrosoftoffice className="text-2xl" /> <span className="font-bold">Microsoft Office</span> <p className="text-wrap text-justify">A suite of productivity applications developed by Microsoft, including Word (word processing), Excel (spreadsheets), PowerPoint (presentations), Outlook (email client), and others.</p>
+                            <figure className="">
+                                <img src="https://i.ibb.co/SnFJz9h/mi3160fa63-microsoft-office-logo-file-microsoft-office-logo-2019-present-svg-liblogo.png" alt="conference management photo" className="rounded-xl w-6 h-6 " />
+                            </figure>
+                            <span className="font-bold">Microsoft Office</span> <p className="text-wrap text-justify">A suite of productivity applications developed by Microsoft, including Word (word processing), Excel (spreadsheets), PowerPoint (presentations), Outlook (email client), and others.</p>
                         </div>
                         <div className="flex flex-col justify-center items-center space-y-2">
-                            <SiAdobephotoshop className="text-2xl" /> <span className="font-bold">Adobe Photoshop</span> <p className="text-wrap text-justify">A powerful raster graphics editor developed by Adobe Inc., known for its extensive capabilities in image editing, manipulation, and enhancement.</p>
+                            <figure className="">
+                                <img src="https://i.ibb.co/n8TzGzC/adobe-photoshop-express-logo-CB0-F9-C1-CDD-seeklogo-com.png" alt="conference management photo" className="rounded-xl w-6 h-6 " />
+                            </figure>
+                            <span className="font-bold">Adobe Photoshop</span> <p className="text-wrap text-justify">A powerful raster graphics editor developed by Adobe Inc., known for its extensive capabilities in image editing, manipulation, and enhancement.</p>
                         </div>
 
                     </div>

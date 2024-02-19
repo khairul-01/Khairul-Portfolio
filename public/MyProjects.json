@@ -1,0 +1,53 @@
+[
+    {
+        "image": "https://i.ibb.co/QFD7Y6j/image.png",
+        "title": "KA Fitness Tracker",
+        "description": "The Fitness Tracker Website is a comprehensive platform designed to help users achieve their fitness goals, and connect with trainers. The website offers a range of features and functionalities tailored to meet the diverse needs of users, trainers, and administrators. Provide users with a user-friendly and visually appealing platform to track their fitness progress, access training resources, and connect with trainers and peers. Empower trainers to effectively manage their classes, engage with clients, and deliver personalized training experiences.",
+        "technologies": [
+            "Frontend: React.js, Tailwind CSS, Daisy UI, React Router, HTML-5.",
+            "Backend: Node.js, Express.js. Database: MongoDB, Firebase (for Authentication).",
+            "Deployment: Vercel(for backend), Firebase(for frontend)"
+        ],
+        "liveUrl": "https://kafitnesstracker.web.app",
+        "frontendUrl": "https://github.com/khairul-01/ka-fitness-tracker.git",
+        "backendUrl": "https://github.com/khairul-01/ka-fitness-tracker-server-site.git"
+    },
+    {
+        "image": "https://i.ibb.co/3dKzGzT/image.png",
+        "title": "KH Automotive Brand Shop",
+        "description": "The KH Automotive Brand Shop is a sophisticated online platform dedicated to automotive enthusiasts. Provide users with a seamless and intuitive shopping experience, with easy navigation, clear product information, and secure checkout processes. Empower administrators to manage product inventory, update product details, and monitor sales performance efficiently. Enhance user engagement and satisfaction with customizable theme options, ensuring optimal readability and visual comfort for users.",
+        "technologies": [
+            "Frontend: React.js, Tailwind CSS, Daisy UI, React Router, HTML-5.",
+            "Backend: Node.js, Express.js. Database: MongoDB, Firebase (for Authentication).",
+            "Deployment: Vercel(for backend), Firebase(for frontend"
+        ],
+        "liveUrl": "https://automotive-brand-shop-c1048.web.app",
+        "frontendUrl": "https://github.com/khairul-01/kh-automotive-brand-shop-client-side.git",
+        "backendUrl": "https://github.com/khairul-01/kh-automotive-brand-shop-server-side.git"
+    },
+    {
+        "image": "https://i.ibb.co/xsx2Zzg/image.png",
+        "title": "Donation Campaign",
+        "description": "The Donation Campaign website is a philanthropic platform designed to facilitate charitable giving and raise awareness for various causes and campaigns. With a user-friendly interface and insightful statistics, the website aims to inspire generosity and support meaningful initiatives that make a positive impact on society.",
+        "technologies": [
+            "Frontend: React.js, Tailwind CSS, Daisy UI, React Router, HTML-5, JavaScript.",
+            "Deployment: Surge"
+        ],
+        "liveUrl": "https://plain-lift.surge.sh",
+        "frontendUrl": "https://github.com/khairul-01/donation-campaign.git"
+        
+    },
+    {
+        "image": "https://i.ibb.co/N6Nztgc/image.png",
+        "title": "Conference Management",
+        "description": "The Conference Management website is a comprehensive platform designed to streamline the organization and management of conferences, events, and seminars. With user-friendly features and secure authentication, the website caters to event organizers, attendees, and speakers, providing a seamless experience from registration to participation.",
+        "technologies": [
+            "Frontend: React.js, Tailwind CSS, Daisy UI, React Router, HTML-5, JavaScript.",
+            "Backend: Firebase Authentication (for user authentication)",
+            "Database: Firebase Firestore (for storing conference data)",
+            "Deployment: Surge"
+        ],
+        "liveUrl": "https://plain-lift.surge.sh",
+        "frontendUrl": "https://github.com/khairul-01/donation-campaign.git"  
+    }
+]

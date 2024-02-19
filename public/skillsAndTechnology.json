@@ -76,5 +76,77 @@
         "skillName": "SQL",
         "skillDescription": "An open-source relational database management system (RDBMS) known for its reliability, scalability, and ease of use.",
         "category": "Database"
+    },
+    {
+        "image": "https://i.ibb.co/C6m5PpC/b4de205cb6d4e7cad43c2971f780cfd9.png",
+        "skillName": "JavaScript",
+        "skillDescription": "Proficient in ES6+ syntax, DOM manipulation, and asynchronous programming.",
+        "category": "Programming Languages"
+    },
+    {
+        "image": "https://i.ibb.co/MSZtrq9/Python-svg.png",
+        "skillName": "Python",
+        "skillDescription": "An interpreted, high-level programming language known for its simplicity and readability.",
+        "category": "Programming Languages"
+    },
+    {
+        "image": "https://i.ibb.co/bNQyF1x/226777.png",
+        "skillName": "Java",
+        "skillDescription": "A robust, object-oriented programming language known for its platform independence.",
+        "category": "Programming Languages"
+    },
+    {
+        "image": "https://i.ibb.co/26GDWzd/png-clipart-professional-c-c-primer-plus-c-the-complete-reference-eclipse-purple-logo.png",
+        "skillName": "C++",
+        "skillDescription": "A powerful, general-purpose programming language derived from C.",
+        "category": "Programming Languages"
+    },
+    {
+        "image": "https://i.ibb.co/r4ksftp/png-transparent-visual-studio-code-hd-logo-thumbnail.png",
+        "skillName": "VS Code",
+        "skillDescription": "A lightweight, open-source code editor developed by Microsoft, known for its speed, extensibility, and rich ecosystem of extensions.",
+        "category": "Software and Hardware"
+    },
+    {
+        "image": "https://i.ibb.co/ZJNgNWx/git-icon.png",
+        "skillName": "Git",
+        "skillDescription": "A distributed version control system that enables developers to track changes to source code and collaborate with others on software projects.",
+        "category": "Software and Hardware"
+    },
+    {
+        "image": "https://i.ibb.co/YQDBXgQ/png-transparent-matlab-symbol.png",
+        "skillName": "MATLAB",
+        "skillDescription": "A high-level programming language and interactive environment developed by MathWorks, commonly used for numerical computing, data analysis, and algorithm development.",
+        "category": "Software and Hardware"
+    },
+    {
+        "image": "https://i.ibb.co/VY0RcqC/Autocad-Logo.png",
+        "skillName": "AutoCAD",
+        "skillDescription": "A computer-aided design (CAD) software developed by Autodesk, widely used by architects, engineers, and designers for creating 2D and 3D drawings, models, and blueprints.",
+        "category": "Software and Hardware"
+    },
+    {
+        "image": "https://i.ibb.co/QCbR6dj/arduino-logo-1.png",
+        "skillName": "Arduino",
+        "skillDescription": "An open-source electronics platform based on easy-to-use hardware and software, designed for building interactive projects and prototypes.",
+        "category": "Software and Hardware"
+    },
+    {
+        "image": "https://i.ibb.co/rcWM8NZ/184-multisim-app-icon-ill.png",
+        "skillName": "Multisim",
+        "skillDescription": "A circuit design and simulation software developed by National Instruments (now part of NI) for designing and analyzing electronic circuits.",
+        "category": "Software and Hardware"
+    },
+    {
+        "image": "https://i.ibb.co/SnFJz9h/mi3160fa63-microsoft-office-logo-file-microsoft-office-logo-2019-present-svg-liblogo.png",
+        "skillName": "Microsoft Office",
+        "skillDescription": "A suite of productivity applications developed by Microsoft, including Word (word processing), Excel (spreadsheets), PowerPoint (presentations), Outlook (email client), and others.",
+        "category": "Software and Hardware"
+    },
+    {
+        "image": "https://i.ibb.co/n8TzGzC/adobe-photoshop-express-logo-CB0-F9-C1-CDD-seeklogo-com.png",
+        "skillName": "Adobe Photoshop",
+        "skillDescription": "A powerful raster graphics editor developed by Adobe Inc., known for its extensive capabilities in image editing, manipulation, and enhancement.",
+        "category": "Software and Hardware"
     }
 ]

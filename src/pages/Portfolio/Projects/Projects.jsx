@@ -43,7 +43,7 @@ const Projects = () => {
                         <h2 className="card-title">Donation Campaign</h2>
                         <p> <span className="font-bold">Description</span> The Donation Campaign website is a philanthropic platform designed to facilitate charitable giving and raise awareness for various causes and campaigns. With a user-friendly interface and insightful statistics, the website aims to inspire generosity and support meaningful initiatives that make a positive impact on society.</p>
                         <p><span className="font-bold">Technologies:</span> <li>Frontend: React.js, Tailwind CSS, Daisy UI, React Router, HTML-5, JavaScript.</li> <li>Deployment: Surge</li></p>
-                        <p><span className="font-bold">Live demo:</span> <Link to='https://plain-lift.surge.sh' target="blank">https://plain-lift.surge.sh/</Link></p>
+                        <p><span className="font-bold">Live demo:</span> <Link to='https://plain-lift.surge.sh' target="blank">https://plain-lift.surge.sh</Link></p>
                         <p><span className="font-bold"> GitHub Repository Link:</span> <Link to='https://github.com/khairul-01/donation-campaign.git' target="blank">https://github.com/khairul-01/donation-campaign.git</Link></p>
 
                     </div>
