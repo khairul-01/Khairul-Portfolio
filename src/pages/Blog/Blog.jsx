@@ -27,7 +27,7 @@ const Blog = () => {
         <div>
             <h1 className="text-5xl text-info text-center my-7">Welcome to Blog Page</h1>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-3">
+            <div className="grid grid-cols-1 mt-3 w-2/3 mx-auto">
                 <div className="card bg-sky-200 text-primary-content-content">
                     <figure className="px-10 pt-10 h-96">
                         <img src="https://i.ibb.co/B31xWM3/ICT-Certificates-1.jpg" alt="conference management photo" className="rounded-xl" />

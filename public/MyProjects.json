@@ -49,5 +49,27 @@
         ],
         "liveUrl": "https://plain-lift.surge.sh",
         "frontendUrl": "https://github.com/khairul-01/donation-campaign.git"  
+    },
+    {
+        "image": "https://i.ibb.co/5knrPnr/image.png",
+        "title": "Course Registration Roster",
+        "description": "The Course Registration Roster website is fully functional and ready for users to explore and register for courses. Continuous updates and improvements are planned to enhance usability, optimize performance, and add new features as needed. The website enforces a maximum course credit limit of 20 hours per user.",
+        "technologies": [
+            "Frontend: Tailwind CSS, Daisy UI, HTML-5, JavaScript.",
+            "Deployment: Surge"
+        ],
+        "liveUrl": "https://sweet-trouble.surge.sh",
+        "frontendUrl": "https://github.com/khairul-01/course-registration-roster.git"  
+    },
+    {
+        "image": "https://i.ibb.co/Rjd76H9/image.png",
+        "title": "PHero-Tube",
+        "description": "PHero-Tube is a dynamic and engaging video-sharing platform designed to entertain and inspire users through a diverse range of content categories. With an intuitive interface and powerful sorting capabilities, the website offers a personalized and immersive viewing experience for users of all interests.",
+        "technologies": [
+            "Frontend: HTML-5, CSS-3, JavaScript.",
+            "Deployment: Surge"
+        ],
+        "liveUrl": "https://apathetic-orange.surge.sh",
+        "frontendUrl": "https://github.com/khairul-01/PHero-tube.git"  
     }
 ]
