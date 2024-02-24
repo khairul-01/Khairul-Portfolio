@@ -2,11 +2,16 @@ import { FaCss3, FaGitAlt, FaHtml5, FaNodeJs, FaReact } from "react-icons/fa6"
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiExpress } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
+import { motion } from "framer-motion"
 
 
 const WhatiDo = () => {
     return (
-        <div>
+        <motion.div
+            transition={{ duration: 1 }}
+            whileHover={{ scale: 1.002 }}
+            whileTap={{ scale: 0.98 }}
+        >
             <div className="hero min-h-screen bg-cyan-100 text-black">
                 <div className="hero-content text-center flex-col">
                     <div className="w-3/4 mx-auto text-justify">
@@ -43,9 +48,9 @@ const WhatiDo = () => {
 
                     </div>
                 </div>
-                
+
             </div>
-        </div>
+        </motion.div>
     );
 };
 

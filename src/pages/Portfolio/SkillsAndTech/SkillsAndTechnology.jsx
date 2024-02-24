@@ -24,14 +24,17 @@ const SkillsAndTechnology = () => {
         }
     })
 
+    console.log(skills.length);
+
     const webDev = skills.filter(skill => skill.category === 'Web Development');
     const database = skills.filter(skill => skill.category === 'Database');
     const programLang = skills.filter(skill => skill.category === 'Programming Languages');
     const software = skills.filter(skill => skill.category === 'Software and Hardware');
-    // console.log(webDev.length, database.length, programLang.length, software.length);
-    if (isPending) return 'Loading...'
+    console.log(webDev.length, database.length, programLang.length, software.length);
 
-    if (error) return 'An error has occurred: ' + error.message ;
+    // if (isPending) return 'Loading...'
+
+    // if (error) return 'An error has occurred: ' + error.message ;
 
 
     return (

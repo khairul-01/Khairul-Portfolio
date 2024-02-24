@@ -1,9 +1,25 @@
 import { Link } from "react-router-dom";
-
+import { motion } from "framer-motion"
+import { useInView } from "react-intersection-observer";
 
 const Banner = () => {
+    const { ref, inView } = useInView();
+    const variants = {
+        hidden: { opacity: 0 },
+        visible: { opacity: 1 },
+    };
     return (
-        <div>
+        <motion.div
+            ref={ref}
+            initial={{ opacity: 0 }}
+            animate={inView ? { opacity: 1 } : { opacity: 0 }}
+            // initial="hidden"
+            // animate="visible"
+            variants={variants}
+            transition={{ duration: 0.8 }}
+            whileHover={{ scale: 1.003 }}
+            whileTap={{ scale: 0.98 }}
+        >
             <div className="hero min-h-screen bg-gradient-to-r from-indigo-200 from-10% via-sky-300 via-50% to-emerald-200 to-90%">
 
                 <div className="hero-content flex-col lg:flex-row-reverse">
@@ -24,7 +40,7 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </motion.div>
     );
 };
 

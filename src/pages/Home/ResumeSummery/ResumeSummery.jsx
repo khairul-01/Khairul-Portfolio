@@ -1,9 +1,19 @@
+import { motion } from "framer-motion"
+import { useInView } from "react-intersection-observer";
 import { Link } from "react-router-dom";
 
 
 const ResumeSummery = () => {
+    const { ref, inView } = useInView();
     return (
-        <div>
+        <motion.div
+            ref={ref}
+            initial={{ opacity: 0 }}
+            animate={inView ? { opacity: 1 } : { opacity: 0 }}
+            transition={{ duration: 1 }}
+            whileHover={{ scale: 1.002 }}
+            whileTap={{ scale: 0.98 }}
+        >
             <div className="hero min-h-screen bg-emerald-50 text-success">
                 <div className="hero-content text-center">
                     <div className="">
@@ -55,7 +65,7 @@ const ResumeSummery = () => {
                                 <h3 className="text-xl">Fundamental IT Engineering Examination (FE) Exam</h3>
                                 <p>Bangladesh Computer Council (BCC), Agargaon, Dhaka</p>
                                 <p>Date of Passing: 21 October, 2023</p>
-                                
+
                             </div>
                         </div>
                         <div className="flex justify-center mt-7">
@@ -64,7 +74,7 @@ const ResumeSummery = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </motion.div>
     );
 };
 
