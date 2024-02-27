@@ -11,9 +11,12 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import useAxiosPublic from '../../../hooks/useAxiosPublic';
 import { useQuery } from '@tanstack/react-query';
+import { motion } from "framer-motion"
+import { useInView } from "react-intersection-observer";
 
 
 const SkillsAndTechnology = () => {
+    const { ref, inView } = useInView();
     const axiosPublic = useAxiosPublic();
 
     const { isPending, error, data: skills = [] } = useQuery({
@@ -39,7 +42,14 @@ const SkillsAndTechnology = () => {
 
     return (
 
-        <div className="sm:px-12">
+        <motion.div className="sm:px-12"
+            ref={ref}
+            initial={{ opacity: 0 }}
+            animate={inView ? { opacity: 1 } : { opacity: 0 }}
+            transition={{ duration: 1 }}
+            whileHover={{ scale: 1.002 }}
+            whileTap={{ scale: 0.98 }}
+        >
             <h1 className="text-5xl text-center text-info py-9">Skills and Technologies</h1>
             <hr className="py-4" />
             <Tabs>
@@ -108,7 +118,7 @@ const SkillsAndTechnology = () => {
             </Tabs>
 
 
-        </div>
+        </motion.div>
     );
 };
 

@@ -1,16 +1,20 @@
 import { AnimatePresence, motion } from "framer-motion"
+import { useInView } from "react-intersection-observer";
 
 const About = () => {
     const isVisible = true;
+    const { ref, inView } = useInView();
     return (
         <AnimatePresence>
             {isVisible && (
                 <motion.div
+                    ref={ref}
+                    animate={inView ? { opacity: 1 } : { opacity: 0 }}
                     initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
+                    // animate={{ opacity: 1 }}
                     exit={{ opacity: 0 }}
-                    transition={{ duration: 1 }}
-                    whileHover={{ scale: 1.002 }}
+                    transition={{ duration: 0.9 }}
+                    whileHover={{ scale: 1.004 }}
                     whileTap={{ scale: 0.98 }}
                 >
                     <div className="hero min-h-screen bg-primary-content">

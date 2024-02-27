@@ -1,4 +1,6 @@
 import { NavLink } from "react-router-dom";
+import { motion } from "framer-motion"
+import { useInView } from "react-intersection-observer";
 
 
 const Navbar = () => {
@@ -8,8 +10,16 @@ const Navbar = () => {
         <li><NavLink to={'/blog'}>Blog</NavLink></li>
         <li><NavLink to={'/hireMe'}> Hire Me </NavLink></li>
     </>
+    const { ref, inView } = useInView();
     return (
-        <div>
+        <motion.div
+            ref={ref}
+            initial={{ opacity: 0 }}
+            animate={inView ? { opacity: 1 } : { opacity: 0 }}
+            transition={{ duration: 1 }}
+            whileHover={{ scale: 1.002 }}
+            whileTap={{ scale: 0.98 }}
+        >
             <div className="navbar bg-violet-100 mb-1 text-black">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -29,7 +39,7 @@ const Navbar = () => {
                     </ul>
                 </div>
             </div>
-        </div>
+        </motion.div>
     );
 };
 

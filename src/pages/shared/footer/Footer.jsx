@@ -1,10 +1,20 @@
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion"
+import { useInView } from "react-intersection-observer";
 
 const Footer = () => {
+    const { ref, inView } = useInView();
     return (
-        <div>
+        <motion.div
+            ref={ref}
+            initial={{ opacity: 0 }}
+            animate={inView ? { opacity: 1 } : { opacity: 0 }}
+            transition={{ duration: 1 }}
+            whileHover={{ scale: 1.002 }}
+            whileTap={{ scale: 0.98 }}
+        >
             <footer id="contact" className=" mt-3 p-3 md:p-10 bg-[FFF8F3] text-base-content rounded">
                 <div className="grid grid-cols-2 gap-3">
                     <nav className="w-3/4 text-left mx-auto">
@@ -74,7 +84,7 @@ const Footer = () => {
                     <p>Copyright © 2024 - All right reserved by Mr. MD. Khairul Alam</p>
                 </aside>
             </footer>
-        </div>
+        </motion.div>
     );
 };
 

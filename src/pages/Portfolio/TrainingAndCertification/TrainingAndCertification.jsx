@@ -1,8 +1,17 @@
-
+import { motion } from "framer-motion"
+import { useInView } from "react-intersection-observer";
 
 const TrainingAndCertification = () => {
+    const { ref, inView } = useInView();
     return (
-        <div className="mt-5">
+        <motion.div className="mt-5"
+            ref={ref}
+            initial={{ opacity: 0 }}
+            animate={inView ? { opacity: 1 } : { opacity: 0 }}
+            transition={{ duration: 1 }}
+            whileHover={{ scale: 1.002 }}
+            whileTap={{ scale: 0.98 }}
+        >
             <h1 className="text-5xl text-primary text-center py-7 font-bold">My Training and Certification</h1>
             <div className="grid grid-cols-2 gap-3 mt-3">
                 <div className="card bg-sky-200 text-primary-content-content">
@@ -27,7 +36,7 @@ const TrainingAndCertification = () => {
                 </div>
             </div>
 
-        </div>
+        </motion.div>
     );
 };
 

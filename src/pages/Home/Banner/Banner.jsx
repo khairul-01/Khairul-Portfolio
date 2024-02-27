@@ -16,8 +16,8 @@ const Banner = () => {
             // initial="hidden"
             // animate="visible"
             variants={variants}
-            transition={{ duration: 0.8 }}
-            whileHover={{ scale: 1.003 }}
+            transition={{ duration: 0.9 }}
+            whileHover={{ scale: 1.004 }}
             whileTap={{ scale: 0.98 }}
         >
             <div className="hero min-h-screen bg-gradient-to-r from-indigo-200 from-10% via-sky-300 via-50% to-emerald-200 to-90%">
