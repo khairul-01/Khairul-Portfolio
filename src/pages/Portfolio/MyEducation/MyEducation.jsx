@@ -12,9 +12,9 @@ const MyEducation = () => {
             whileHover={{ scale: 1.002 }}
             whileTap={{ scale: 0.98 }}
         >
-            <div className="mt-5">
+            <div className="mt-5 bg-[#E0FFFF] text-[#8B0000]">
                 <h1 className="text-5xl text-primary text-center py-7 font-bold">My Education</h1>
-                <div className="card bg-sky-200 text-primary-content-content w-1/2 mx-auto">
+                <div className="card  w-1/2 mx-auto">
                     <figure className="px-10 pt-10 h-96">
                         <img src="https://i.ibb.co/B35xQsP/Certificates-4.jpg" alt="conference management photo" className="rounded-xl" />
                     </figure>

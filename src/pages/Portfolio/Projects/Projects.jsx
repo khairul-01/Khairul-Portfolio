@@ -33,7 +33,7 @@ const Projects = () => {
             <hr className="my-4" />
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {
-                    projects.map((project, ind) => <motion.div key={ind} className="card mx-auto bg-neutral text-neutral-content"
+                    projects.map((project, ind) => <motion.div key={ind} className="card mx-auto bg-[#FFFFF0] text-[#000080]"
                         ref={ref}
                         initial={{ opacity: 0 }}
                         animate={inView ? { opacity: 1 } : { opacity: 0 }}

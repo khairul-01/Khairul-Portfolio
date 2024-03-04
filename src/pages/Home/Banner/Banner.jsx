@@ -20,7 +20,7 @@ const Banner = () => {
             whileHover={{ scale: 1.004 }}
             whileTap={{ scale: 0.98 }}
         >
-            <div className="hero min-h-screen bg-gradient-to-r from-indigo-200 from-10% via-sky-300 via-50% to-emerald-200 to-90%">
+            <div className="hero min-h-screen bg-gradient-to-r from-[#B0C4DE] from-10% via-[#E0FFFF] via-50% to-[#E6E6FA] to-90%">
 
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <div className="w-1/2">
@@ -33,7 +33,7 @@ const Banner = () => {
                             <p className="py-6 text-justify">Welcome to my portfolio! I am a dedicated and aspiring web developer with a passion for creating impactful digital experiences. My journey into the world of technology began with a deep-seated curiosity and a drive to understand the inner workings of the web.</p>
                             <div className="flex gap-4 justify-center">
 
-                                <Link to='https://drive.google.com/file/d/10y6WoNBESp-AuytqyT_hurtvJEoM8Xqf/view?usp=sharing' target="blank"><button className="btn btn-secondary">Download CV</button></Link>
+                                <Link to='https://drive.google.com/file/d/1Pu_RfKi9fS-qLykIiR0cAD24C1pRHVrR/view?usp=drive_link' target="blank"><button className="btn btn-secondary">Download CV</button></Link>
                                 <Link to="/hireMe"><button className="btn btn-secondary">Contact</button></Link>
                             </div>
                         </div>

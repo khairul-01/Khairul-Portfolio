@@ -32,12 +32,13 @@ const Blog = () => {
             transition={{ duration: 1 }}
             whileHover={{ scale: 1.002 }}
             whileTap={{ scale: 0.98 }}
+            className="bg-[#E6E6FA] text-[#006400"
         >
             <h1 className="text-5xl text-info text-center my-7">Welcome to Blog Page</h1>
 
             <div className="grid gap-5 grid-cols-1 mt-3 w-2/3 mx-auto">
 
-                <div className="card bg-sky-200 text-primary-content-content">
+                <div className="card bg-[#E6E6FA] text-[#006400]">
                     <figure className="px-10 pt-10 h-96">
                         <img src="https://i.ibb.co/VgVbMcc/IMGL7795.jpg" alt="conference management photo" className="rounded-xl" />
                         <img src="https://i.ibb.co/KLrtfrh/IMGL7889.jpg" alt="conference management photo" className="rounded-xl" />

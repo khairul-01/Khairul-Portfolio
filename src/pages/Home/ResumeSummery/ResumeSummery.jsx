@@ -14,7 +14,7 @@ const ResumeSummery = () => {
             whileHover={{ scale: 1.002 }}
             whileTap={{ scale: 0.98 }}
         >
-            <div className="hero min-h-screen bg-emerald-50 text-success">
+            <div className="hero min-h-screen bg-[#E6E6FA] text-[#006400]">
                 <div className="hero-content text-center">
                     <div className="">
                         <h1 className="text-5xl font-bold mb-10">A Summery of My Resume</h1>

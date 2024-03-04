@@ -3,9 +3,44 @@ import { MdEmail } from "react-icons/md";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion"
 import { useInView } from "react-intersection-observer";
+import { useForm } from "react-hook-form";
+import useAxiosPublic from "../../../hooks/useAxiosPublic";
+import Swal from "sweetalert2";
 
 const Footer = () => {
+    const axiosPublic = useAxiosPublic();
     const { ref, inView } = useInView();
+    const {
+        register,
+        handleSubmit,
+        // watch,
+        reset
+    } = useForm();
+
+    const onSubmit = async (data) => {
+        console.log(data);
+        const contactInfo = {
+            name: data.name,
+            email: data.email,
+            message: data.message
+        }
+        console.log(contactInfo);
+
+        const contactInf = await axiosPublic.post('/contact', contactInfo)
+        console.log(contactInf.data);
+        if (contactInf.data.insertedId) {
+            // show success popup
+            reset();
+            Swal.fire({
+                position: "top-end",
+                icon: "success",
+                title: `${data.name}, your message has been submitted to Khairul Alam`,
+                showConfirmButton: false,
+                timer: 1500
+            });
+        }
+    }
+
     return (
         <motion.div
             ref={ref}
@@ -26,7 +61,8 @@ const Footer = () => {
                                     <FaFacebook />
                                 </div>
                             </Link>
-                            <Link to='https://github.com/khairul-01'>
+                            <Link to='https://github.com/khairul-01'
+                                target="blank">
                                 <div className='btn btn-sm btn-info text-xl'>
                                     <FaGithub />
                                 </div>
@@ -51,25 +87,25 @@ const Footer = () => {
                     <nav className="w-3/4 mx-auto">
                         <h1 className="text-3xl font-bold mb-2">Lets Message Me</h1>
                         <div>
-                            <form className="card-body">
+                            <form onSubmit={handleSubmit(onSubmit)} className="card-body">
                                 <div className="form-control">
                                     <label className="label">
                                         <span className="label-text">Name</span>
                                     </label>
-                                    <input type="email" placeholder="Your Name" className="input input-bordered" required />
+                                    <input type="text" {...register("name", { required: true })} placeholder="Your Name" className="input input-bordered" required />
                                 </div>
                                 <div className="form-control">
                                     <label className="label">
                                         <span className="label-text">Email</span>
                                     </label>
-                                    <input type="password" placeholder="Your Email" className="input input-bordered" required />
+                                    <input type="email" {...register("email", { required: true })} placeholder="Your Email" className="input input-bordered" required />
 
                                 </div>
                                 <div className="form-control">
                                     <label className="label">
                                         <span className="label-text">Message</span>
                                     </label>
-                                    <textarea className="textarea input input-bordered" placeholder="Message" required></textarea>
+                                    <textarea className="textarea input input-bordered" {...register("message", { required: true })} placeholder="Message" required></textarea>
 
 
                                 </div>

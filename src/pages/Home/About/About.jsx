@@ -17,12 +17,12 @@ const About = () => {
                     whileHover={{ scale: 1.004 }}
                     whileTap={{ scale: 0.98 }}
                 >
-                    <div className="hero min-h-screen bg-primary-content">
-                        <div className="hero-content text-center flex-col">
+                    <div className="hero min-h-screen bg-[#B0C4DE] ">
+                        <div className="hero-content text-center flex-col ">
                             <div className="max-w-md">
-                                <h1 className="text-5xl font-bold text-primary">About Me</h1>
+                                <h1 className="text-5xl font-bold text-blue-700">About Me</h1>
                             </div>
-                            <div className="w-3/4 mx-auto text-justify">
+                            <div className="w-3/4 mx-auto text-justify text-[#2F4F4F]">
                                 <p className="py-6 space-y-2">
                                     <p>Over the past six months, I have undergone rigorous training in web development, immersing myself in the latest industry practices and technologies. Through hands-on projects and collaborative learning experiences, I have honed my skills in front-end and back-end development, mastering languages such as HTML, CSS, JavaScript, Tailwind CSS, Daisy UI, React.js, Node.js, Express.js, MongoDB, Firebase.</p>
 

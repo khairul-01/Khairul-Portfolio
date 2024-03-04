@@ -42,7 +42,7 @@ const SkillsAndTechnology = () => {
 
     return (
 
-        <motion.div className="sm:px-12"
+        <motion.div className="sm:px-12 bg-[#E6E6FA] text-[#006400] mt-5"
             ref={ref}
             initial={{ opacity: 0 }}
             animate={inView ? { opacity: 1 } : { opacity: 0 }}
@@ -50,7 +50,7 @@ const SkillsAndTechnology = () => {
             whileHover={{ scale: 1.002 }}
             whileTap={{ scale: 0.98 }}
         >
-            <h1 className="text-5xl text-center text-info py-9">Skills and Technologies</h1>
+            <h1 className="text-5xl text-center text-success py-9">Skills and Technologies</h1>
             <hr className="py-4" />
             <Tabs>
                 <TabList className={""}>
@@ -61,59 +61,98 @@ const SkillsAndTechnology = () => {
                 </TabList>
 
                 <TabPanel>
-                    <h3 className="text-2xl font-bold text-center mt-3 mb-7">Web Development</h3>
-                    <div className="grid grid-cols-2 sm:grid-cols-4 gap-5 px-5">
-                        {
-                            webDev.map((skill, ind) => <div key={ind} className="flex flex-col justify-center items-center space-y-2">
-                                <figure className="">
-                                    <img src={skill.image} alt="conference management photo" className="rounded-xl w-8 h-8" />
-                                </figure>
-                                <span className="font-bold">{skill.skillName}</span> <p className="text-wrap text-justify">{skill.skillDescription}</p>
-                            </div>)
-                        }
+                    <motion.div
+                        ref={ref}
+                        initial={{ opacity: 0 }}
+                        animate={inView ? { opacity: 1 } : { opacity: 0 }}
+                        transition={{ duration: 1 }}
+                        whileHover={{ scale: 1.002 }}
+                        whileTap={{ scale: 0.98 }}
+                    >
+                        <h3 className="text-2xl font-bold text-center mt-3 mb-7">Web Development</h3>
+                        <div className="grid grid-cols-2 sm:grid-cols-4 gap-5 px-5">
+                            {
+                                webDev.map((skill, ind) => <div key={ind} className="flex flex-col justify-center items-center space-y-2">
+                                    <figure className="">
+                                        <img src={skill.image} alt="conference management photo" className="rounded-xl w-8 h-8" />
+                                    </figure>
+                                    <span className="font-bold">{skill.skillName}</span> <p className="text-wrap text-justify">{skill.skillDescription}</p>
+                                </div>)
+                            }
 
-                    </div>
+                        </div>
+                    </motion.div>
                 </TabPanel>
                 <TabPanel>
-                    <h3 className="text-2xl font-bold text-center mt-3 mb-7">Database</h3>
-                    <div className="grid grid-cols-2 sm:grid-cols-4 gap-5 px-5 mb-3">
+                    <motion.div
+                        ref={ref}
+                        initial={{ opacity: 0 }}
+                        animate={inView ? { opacity: 1 } : { opacity: 0 }}
+                        transition={{ duration: 1 }}
+                        whileHover={{ scale: 1.002 }}
+                        whileTap={{ scale: 0.98 }}
+                    >
+                        <h3 className="text-2xl font-bold text-center mt-3 mb-7">Database</h3>
+                        <div className="grid grid-cols-2 sm:grid-cols-4 gap-5 px-5 mb-3">
 
-                        {
-                            database.map((skill, ind) => <div key={ind} className="flex flex-col justify-center items-center space-y-2">
-                                <figure className="">
-                                    <img src={skill.image} alt="conference management photo" className="rounded-xl w-8 h-8" />
-                                </figure>
-                                <span className="font-bold">{skill.skillName}</span> <p className="text-wrap text-justify">{skill.skillDescription}</p>
-                            </div>)
-                        }
+                            {
+                                database.map((skill, ind) => <div key={ind} className="flex flex-col justify-center items-center space-y-2">
+                                    <figure className="">
+                                        <img src={skill.image} alt="conference management photo" className="rounded-xl w-8 h-8" />
+                                    </figure>
+                                    <span className="font-bold">{skill.skillName}</span> <p className="text-wrap text-justify">{skill.skillDescription}</p>
+                                </div>)
+                            }
 
-                    </div>
+                        </div>
+                    </motion.div>
+
                 </TabPanel>
                 <TabPanel>
-                    <h3 className="text-2xl font-bold text-center mt-3 mb-7">Programming Languages</h3>
-                    <div className="grid grid-cols-2 sm:grid-cols-4 gap-5 px-5 mb-3">
-                        {
-                            programLang.map((skill, ind) => <div key={ind} className="flex flex-col justify-center items-center space-y-2">
-                                <figure className="">
-                                    <img src={skill.image} alt="conference management photo" className="rounded-xl w-8 h-8" />
-                                </figure>
-                                <span className="font-bold">{skill.skillName}</span> <p className="text-wrap text-justify">{skill.skillDescription}</p>
-                            </div>)
-                        }
-                    </div>
+                    <motion.div
+                        ref={ref}
+                        initial={{ opacity: 0 }}
+                        animate={inView ? { opacity: 1 } : { opacity: 0 }}
+                        transition={{ duration: 1 }}
+                        whileHover={{ scale: 1.002 }}
+                        whileTap={{ scale: 0.98 }}
+                    >
+                        <h3 className="text-2xl font-bold text-center mt-3 mb-7">Programming Languages</h3>
+                        <div className="grid grid-cols-2 sm:grid-cols-4 gap-5 px-5 mb-3">
+                            {
+                                programLang.map((skill, ind) => <div key={ind} className="flex flex-col justify-center items-center space-y-2">
+                                    <figure className="">
+                                        <img src={skill.image} alt="conference management photo" className="rounded-xl w-8 h-8" />
+                                    </figure>
+                                    <span className="font-bold">{skill.skillName}</span> <p className="text-wrap text-justify">{skill.skillDescription}</p>
+                                </div>)
+                            }
+                        </div>
+                    </motion.div>
+
                 </TabPanel>
                 <TabPanel>
-                    <h3 className="text-2xl font-bold text-center mt-3 mb-7">Software and Hardware</h3>
-                    <div className="grid grid-cols-2 sm:grid-cols-4 gap-5 px-5">
-                        {
-                            software.map((skill, ind) => <div key={ind} className="flex flex-col justify-center items-center space-y-2">
-                                <figure className="">
-                                    <img src={skill.image} alt="conference management photo" className="rounded-xl w-8 h-8" />
-                                </figure>
-                                <span className="font-bold">{skill.skillName}</span> <p className="text-wrap text-justify">{skill.skillDescription}</p>
-                            </div>)
-                        }
-                    </div>
+                    <motion.div
+                        ref={ref}
+                        initial={{ opacity: 0 }}
+                        animate={inView ? { opacity: 1 } : { opacity: 0 }}
+                        transition={{ duration: 1 }}
+                        whileHover={{ scale: 1.002 }}
+                        whileTap={{ scale: 0.98 }}
+                    >
+                        <h3 className="text-2xl font-bold text-center mt-3 mb-7">Software and Hardware</h3>
+                        <div className="grid grid-cols-2 sm:grid-cols-4 gap-5 px-5">
+                            {
+                                software.map((skill, ind) => <div key={ind} className="flex flex-col justify-center items-center space-y-2">
+                                    <figure className="">
+                                        <img src={skill.image} alt="conference management photo" className="rounded-xl w-8 h-8" />
+                                    </figure>
+                                    <span className="font-bold">{skill.skillName}</span> <p className="text-wrap text-justify">{skill.skillDescription}</p>
+                                </div>)
+                            }
+                        </div>
+                    </motion.div>
+
                 </TabPanel>
             </Tabs>
 

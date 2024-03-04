@@ -17,10 +17,10 @@ const WhatiDo = () => {
             whileHover={{ scale: 1.002 }}
             whileTap={{ scale: 0.98 }}
         >
-            <div className="hero min-h-screen bg-cyan-100 text-black">
+            <div className="hero min-h-screen bg-[#E0FFFF] text-[#8B0000]">
                 <div className="hero-content text-center flex-col">
                     <div className="w-3/4 mx-auto text-justify">
-                        <h1 className="text-5xl font-bold text-center text-primary mb-3">What I Do</h1>
+                        <h1 className="text-5xl font-bold text-center text-info mb-3">What I Do</h1>
                         <p className="py-6">In my journey as a web developer, I specialize in leveraging the MERN (MongoDB, Express.js, React.js, Node.js) stack to create dynamic and robust web applications. With a strong foundation in both front-end and back-end development, I bring ideas to life through clean code, intuitive user interfaces, and seamless functionality.
                             <p className="py-1">Below is a quick overview of my main technical skill sets and technologies i use. Want to find out more about experience? Check out my online resume and project portfolio.</p>
                         </p>
