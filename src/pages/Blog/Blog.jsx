@@ -36,10 +36,10 @@ const Blog = () => {
         >
             <h1 className="text-5xl text-info text-center my-7">Welcome to Blog Page</h1>
 
-            <div className="grid gap-5 grid-cols-1 mt-3 w-2/3 mx-auto">
+            <div className="grid gap-5 grid-cols-1 mt-3 sm:w-2/3 mx-auto">
 
                 <div className="card bg-[#E6E6FA] text-[#006400]">
-                    <figure className="px-10 pt-10 h-96">
+                    <figure className="px-6 sm:px-10 pt-6 sm:pt-10 h-96">
                         <img src="https://i.ibb.co/VgVbMcc/IMGL7795.jpg" alt="conference management photo" className="rounded-xl" />
                         <img src="https://i.ibb.co/KLrtfrh/IMGL7889.jpg" alt="conference management photo" className="rounded-xl" />
                     </figure>

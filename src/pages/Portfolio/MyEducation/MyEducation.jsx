@@ -14,7 +14,7 @@ const MyEducation = () => {
         >
             <div className="mt-5 bg-[#E0FFFF] text-[#8B0000]">
                 <h1 className="text-5xl text-primary text-center py-7 font-bold">My Education</h1>
-                <div className="card  sm:w-1/2 mx-auto">
+                <div className="card  sm:w-1/2 md:w-3/4 mx-auto">
                     <figure className="px-6 sm:px-10 pt-10 h-96">
                         <img src="https://i.ibb.co/B35xQsP/Certificates-4.jpg" alt="conference management photo" className="rounded-xl" />
                     </figure>

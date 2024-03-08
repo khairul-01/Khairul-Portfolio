@@ -22,11 +22,11 @@ const Banner = () => {
         >
             <div className="hero min-h-screen bg-gradient-to-r from-[#B0C4DE] from-10% via-[#E0FFFF] via-50% to-[#E6E6FA] to-90%">
 
-                <div className="hero-content flex-col lg:flex-row-reverse">
-                    <div className="w-1/2">
+                <div className="hero-content flex-col md:flex-row-reverse">
+                    <div className="w-3/4 sm:w-1/2">
                         <img src="https://i.ibb.co/hFQfXS6/Khairul-Alam.jpg" className="rounded-lg shadow-2xl mx-auto" />
                     </div>
-                    <div className="w-1/2 text-center">
+                    <div className="w-3/4 sm:w-1/2 text-center">
                         <div className="sm:w-3/4 mx-auto ">
                             <h1 className="text-5xl font-bold">Hi, I am</h1>
                             <h1 className="text-5xl text-orange-950">Khairul Alam</h1>

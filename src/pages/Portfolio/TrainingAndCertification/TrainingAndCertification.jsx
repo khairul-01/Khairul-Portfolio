@@ -15,7 +15,7 @@ const TrainingAndCertification = () => {
             <h1 className="text-5xl text-primary text-center py-7 font-bold">My Training and Certification</h1>
             <div className="grid sm:grid-cols-2 gap-3 mt-3">
                 <div className="card">
-                    <figure className="px-6 sm:px-10 pt-10 h-96">
+                    <figure className="px-6 sm:px-10 pt-10 h-72 sm:h-96">
                         <img src="https://i.ibb.co/B31xWM3/ICT-Certificates-1.jpg" alt="conference management photo" className="rounded-xl" />
                     </figure>
                     <div className="card-body  text-left">
@@ -25,7 +25,7 @@ const TrainingAndCertification = () => {
                     </div>
                 </div>
                 <div className="card">
-                    <figure className="px-6 sm:px-10 pt-10 h-96">
+                    <figure className="px-6 sm:px-10 pt-10 h-72 sm:h-96">
                         <img src="https://i.ibb.co/f8gwYNw/ICT-Certificates-3.jpg" alt="conference management photo" className="rounded-xl" />
                     </figure>
                     <div className="card-body  text-left">
