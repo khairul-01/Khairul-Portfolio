@@ -32,7 +32,7 @@ const Blog = () => {
             transition={{ duration: 1 }}
             whileHover={{ scale: 1.002 }}
             whileTap={{ scale: 0.98 }}
-            className="bg-[#E6E6FA] text-[#006400"
+            className="bg-[#E6E6FA] text-[#006400]"
         >
             <h1 className="text-5xl text-info text-center my-7">Welcome to Blog Page</h1>
 

@@ -27,13 +27,13 @@ const Banner = () => {
                         <img src="https://i.ibb.co/hFQfXS6/Khairul-Alam.jpg" className="rounded-lg shadow-2xl mx-auto" />
                     </div>
                     <div className="w-1/2 text-center">
-                        <div className="w-3/4 mx-auto ">
+                        <div className="sm:w-3/4 mx-auto ">
                             <h1 className="text-5xl font-bold">Hi, I am</h1>
                             <h1 className="text-5xl text-orange-950">Khairul Alam</h1>
                             <p className="py-6 text-justify">Welcome to my portfolio! I am a dedicated and aspiring web developer with a passion for creating impactful digital experiences. My journey into the world of technology began with a deep-seated curiosity and a drive to understand the inner workings of the web.</p>
                             <div className="flex gap-4 justify-center">
 
-                                <Link to='https://drive.google.com/file/d/1Pu_RfKi9fS-qLykIiR0cAD24C1pRHVrR/view?usp=drive_link' target="blank"><button className="btn btn-secondary">Download CV</button></Link>
+                                <Link to='https://drive.google.com/file/d/1dPyC6G1skb2xploNpyH48EptTjjEnuJu/view?usp=sharing' target="blank"><button className="btn btn-secondary">Download CV</button></Link>
                                 <Link to="/hireMe"><button className="btn btn-secondary">Contact</button></Link>
                             </div>
                         </div>

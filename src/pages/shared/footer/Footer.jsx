@@ -51,7 +51,7 @@ const Footer = () => {
             whileTap={{ scale: 0.98 }}
         >
             <footer id="contact" className=" mt-3 p-3 md:p-10 bg-[FFF8F3] text-base-content rounded">
-                <div className="grid grid-cols-2 gap-3">
+                <div className="grid sm:grid-cols-2 gap-3">
                     <nav className="w-3/4 text-left mx-auto">
                         <h1 className="text-3xl font-bold mb-2">Lets connect</h1>
                         <p className="mb-3">Please fill out the form on this section to contact with me or Email me any time or call between 9 A.M to 8 P.M Monday to Sunday</p>

@@ -69,7 +69,7 @@ const ResumeSummery = () => {
                             </div>
                         </div>
                         <div className="flex justify-center mt-7">
-                            <Link to='https://drive.google.com/file/d/10y6WoNBESp-AuytqyT_hurtvJEoM8Xqf/view?usp=sharing' target="blank" ><button className="btn btn-secondary">Download CV</button></Link>
+                            <Link to='https://drive.google.com/file/d/1dPyC6G1skb2xploNpyH48EptTjjEnuJu/view?usp=sharing' target="blank" ><button className="btn btn-secondary">Download CV</button></Link>
                         </div>
                     </div>
                 </div>

@@ -72,7 +72,7 @@ const SkillsAndTechnology = () => {
                         <h3 className="text-2xl font-bold text-center mt-3 mb-7">Web Development</h3>
                         <div className="grid grid-cols-2 sm:grid-cols-4 gap-5 px-5">
                             {
-                                webDev.map((skill, ind) => <div key={ind} className="flex flex-col justify-center items-center space-y-2">
+                                webDev.map((skill, ind) => <div key={ind} className="flex flex-col items-center space-y-2">
                                     <figure className="">
                                         <img src={skill.image} alt="conference management photo" className="rounded-xl w-8 h-8" />
                                     </figure>
