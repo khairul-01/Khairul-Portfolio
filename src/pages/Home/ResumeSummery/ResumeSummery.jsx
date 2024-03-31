@@ -49,7 +49,7 @@ const ResumeSummery = () => {
                                 <br />
                                 <div>
                                     <h3 className="text-xl">Guest Employee</h3>
-                                    <p>North South University | April, 2023 -  Continue</p>
+                                    <p>North South University | October, 2023 -  Continue</p>
                                     <p>Department: Career and Placement Center (CPC)</p>
                                     <p>Responsibilities:</p>
                                     <p>

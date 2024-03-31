@@ -36,7 +36,7 @@ const TrainingAndCertification = () => {
                 </div>
                 <div className="card">
                     <figure className="px-6 sm:px-10 pt-10 h-72 sm:h-96">
-                        <img src="https://i.ibb.co/f8gwYNw/ICT-Certificates-3.jpg" alt="conference management photo" className="rounded-xl" />
+                        <img src="https://i.ibb.co/fH7TdDW/BMEET-plus-2.jpg" alt="conference management photo" className="rounded-xl" />
                     </figure>
                     <div className="card-body  text-left">
                         <h2 className="card-title">Bangladesh Miyazaki ICT Engineering Training Program Plus (B-MEET Plus) 6th Batch</h2>
