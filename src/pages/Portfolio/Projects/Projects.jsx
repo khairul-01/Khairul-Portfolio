@@ -31,14 +31,14 @@ const Projects = () => {
         >
             <h1 className="text-center py-7 text-5xl text-info">My Projects</h1>
             <hr className="my-4" />
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pb-3">
                 {
                     projects.map((project, ind) => <motion.div key={ind} className="card mx-auto bg-[#FFFFF0] text-[#000080]"
                         ref={ref}
                         initial={{ opacity: 0 }}
                         animate={inView ? { opacity: 1 } : { opacity: 0 }}
-                        transition={{ duration: 1 }}
-                        whileHover={{ scale: 1.002 }}
+                        transition={{ duration: 0.3 }}
+                        whileHover={{ scale: 1.02 }}
                         whileTap={{ scale: 0.98 }}
                     >
                         <figure className="px-10 pt-10">
