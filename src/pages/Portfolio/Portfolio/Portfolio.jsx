@@ -7,7 +7,7 @@ import TrainingAndCertification from "../TrainingAndCertification/TrainingAndCer
 
 const Portfolio = () => {
     return (
-        <div>
+        <div className="space-y-1">
             <Introduction></Introduction>
             <SkillsAndTechnology></SkillsAndTechnology>
             <Projects></Projects>

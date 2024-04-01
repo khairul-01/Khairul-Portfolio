@@ -21,7 +21,7 @@ const Projects = () => {
     if (error) return 'An error has occurred: ' + error.message;
 
     return (
-        <motion.div className='mt-9'
+        <motion.div className='bg-[#F5F5DC]'
             ref={ref}
             initial={{ opacity: 0 }}
             animate={inView ? { opacity: 1 } : { opacity: 0 }}
@@ -29,7 +29,7 @@ const Projects = () => {
             whileHover={{ scale: 1.002 }}
             whileTap={{ scale: 0.98 }}
         >
-            <h1 className="text-center text-5xl text-info">My Projects</h1>
+            <h1 className="text-center py-7 text-5xl text-info">My Projects</h1>
             <hr className="my-4" />
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {

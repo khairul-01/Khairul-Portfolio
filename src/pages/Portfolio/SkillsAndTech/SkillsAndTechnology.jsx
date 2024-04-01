@@ -42,7 +42,7 @@ const SkillsAndTechnology = () => {
 
     return (
 
-        <motion.div className="sm:px-12 bg-[#E6E6FA] text-[#006400] mt-5"
+        <motion.div className="sm:px-12 bg-[#E6E6FA] text-[#006400]"
             ref={ref}
             initial={{ opacity: 0 }}
             animate={inView ? { opacity: 1 } : { opacity: 0 }}

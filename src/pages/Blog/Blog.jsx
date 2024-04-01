@@ -34,11 +34,11 @@ const Blog = () => {
             whileTap={{ scale: 0.98 }}
             className="bg-[#E6E6FA] text-[#006400]"
         >
-            <h1 className="text-5xl text-info text-center py-7 my-7">Welcome to My Blog </h1>
+            <h1 className="text-5xl text-info text-center py-7">Welcome to My Blog </h1>
 
             <div className="grid gap-5 grid-cols-1 mt-3 sm:w-2/3 mx-auto">
 
-                <div className="card bg-[#E6E6FA] text-[#006400]">
+                <div className="card text-[#006400]">
                     <figure className="px-6 sm:px-10 pt-6 sm:pt-10 h-96">
                         <img src="https://i.ibb.co/px9t4pC/432000382-1487603411792305-7096449324897784746-n.jpg" alt="conference management photo" className="rounded-xl" />
                         <img src="https://i.ibb.co/6BVxYg9/Whats-App-Image-2024-03-07-at-18-52-31-37ddc7d6copy.jpg" alt="conference management photo" className="rounded-xl" />
@@ -69,8 +69,8 @@ const Blog = () => {
 
                 <div className="card bg-[#E6E6FA] text-[#006400]">
                     <figure className="px-6 sm:px-10 pt-6 sm:pt-10 h-96">
-                        <img src="https://i.ibb.co/VgVbMcc/IMGL7795.jpg" alt="conference management photo" className="rounded-xl" />
-                        <img src="https://i.ibb.co/KLrtfrh/IMGL7889.jpg" alt="conference management photo" className="rounded-xl" />
+                        <img src="https://i.ibb.co/VgVbMcc/IMGL7795.jpg" alt="conference management photo" className="rounded-xl h-full" />
+                        <img src="https://i.ibb.co/KLrtfrh/IMGL7889.jpg" alt="conference management photo" className="rounded-xl h-full" />
                     </figure>
                     <div className="card-body  text-left">
                         <div className="card-actions gap-5">

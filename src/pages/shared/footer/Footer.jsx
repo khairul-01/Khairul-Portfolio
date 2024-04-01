@@ -50,7 +50,7 @@ const Footer = () => {
             whileHover={{ scale: 1.002 }}
             whileTap={{ scale: 0.98 }}
         >
-            <footer id="contact" className=" mt-3 p-3 md:p-10 bg-[FFF8F3] text-base-content rounded">
+            <footer id="contact" className=" mt-1 p-3 md:p-10 bg-[#FFF8F3] text-base-content rounded">
                 <div className="grid sm:grid-cols-2 gap-3">
                     <nav className="w-3/4 text-left mx-auto">
                         <h1 className="text-3xl font-bold mb-2">Lets connect</h1>

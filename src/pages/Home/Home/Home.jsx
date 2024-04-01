@@ -6,7 +6,7 @@ import ResumeSummery from "../ResumeSummery/ResumeSummery";
 
 const Home = () => {
     return (
-        <div className="space-y-5">
+        <div className="space-y-1">
             <Banner></Banner>
             <About></About>
             <WhatiDo></WhatiDo>
