@@ -34,7 +34,7 @@ const Blog = () => {
             whileTap={{ scale: 0.98 }}
             className="bg-[#E6E6FA] text-[#006400]"
         >
-            <h1 className="text-5xl text-info text-center my-7">Welcome to Blog Page</h1>
+            <h1 className="text-5xl text-info text-center py-7 my-7">Welcome to My Blog </h1>
 
             <div className="grid gap-5 grid-cols-1 mt-3 sm:w-2/3 mx-auto">
 

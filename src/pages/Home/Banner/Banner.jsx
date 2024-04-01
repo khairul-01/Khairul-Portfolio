@@ -24,7 +24,7 @@ const Banner = () => {
 
                 <div className="hero-content flex-col md:flex-row-reverse">
                     <div className="w-3/4 sm:w-1/2">
-                        <img src="https://i.ibb.co/59YR7Cv/khairul-photo.jpg" className="rounded-lg shadow-2xl mx-auto h-1/2 w-1/2" />
+                        <img src="https://i.ibb.co/fxQVtVc/profile-pic.jpg" className="rounded-lg shadow-2xl mx-auto  w-3/4" />
                     </div>
                     <div className="w-3/4 sm:w-1/2 text-center">
                         <div className="sm:w-3/4 mx-auto ">
